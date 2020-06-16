@@ -37,7 +37,7 @@ class CreateTodo extends Component {
        console.log(user_id)
 
             e.preventDefault()
-            axios.post('http://localhost:8080/api/todo/create',{title,todo,user_id})
+            axios.post('https://todolist-auth-express-server.herokuapp.com/api/todo/create',{title,todo,user_id})
             .then(res =>{
 
                 console.log(res.data)

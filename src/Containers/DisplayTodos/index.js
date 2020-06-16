@@ -13,7 +13,7 @@ export default  class DisplayTodos extends Component {
     componentDidMount(){
 
         const id = localStorage.getItem('user_id')
-        axios.get(`http://localhost:8080/api/todo/all/${id}`)
+        axios.get(`https://todolist-auth-express-server.herokuapp.com/api/todo/all/${id}`)
         .then(res =>{
 
             console.log(res.data)
@@ -39,7 +39,7 @@ export default  class DisplayTodos extends Component {
         e.preventDefault();
         const id = e.target.id;
         console.log(id)
-        axios.delete(`http://localhost:8080/api/todo/${id}`)
+        axios.delete(`https://todolist-auth-express-server.herokuapp.com/api/todo/${id}`)
         .then(res =>{
 
             console.log(res.data)

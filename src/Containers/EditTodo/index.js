@@ -18,7 +18,7 @@ export default class EditTodo extends Component {
     }
     componentDidMount(){
 
-        axios.get(`http://localhost:8080/api/todo/${this.state.id}`)
+        axios.get(`https://todolist-auth-express-server.herokuapp.com/api/todo/${this.state.id}`)
             .then(res=>{
 
                 console.log(res.data)
@@ -54,7 +54,7 @@ export default class EditTodo extends Component {
         e.preventDefault()
         const id = this.state.id
         const todo = this.state.todo
-        axios.put(`http://localhost:8080/api/todo/`+id,{todo})
+        axios.put(`https://todolist-auth-express-server.herokuapp.com/api/todo/`+id,{todo})
         .then(res => {
 
             console.log(res.data)

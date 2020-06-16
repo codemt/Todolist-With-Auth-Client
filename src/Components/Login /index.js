@@ -36,7 +36,7 @@ class Login extends Component {
         const password = this.state.password
         console.log(user)
         console.log(this.state)
-        axios.post('http://localhost:8080/api/auth/signin',{username,password})
+        axios.post('https://todolist-auth-express-server.herokuapp.com/api/auth/signin',{username,password})
         .then(res =>{
 
             console.log(res.data)

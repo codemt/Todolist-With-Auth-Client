@@ -45,7 +45,7 @@ import Welcome from '../Welcome';
         const roles = this.state.roles
         console.log(user)
         console.log(this.state)
-        axios.post('http://localhost:8080/api/auth/signup',{username,email,password,roles})
+        axios.post('https://todolist-auth-express-server.herokuapp.com/api/auth/signup',{username,email,password,roles})
         .then(res =>{
 
             console.log(res.data)
