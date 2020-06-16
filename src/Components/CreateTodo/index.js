@@ -8,7 +8,7 @@ class CreateTodo extends Component {
 
         title : '',
         todo : ' ',
-        user_id : localStorage.getItem('user_id')
+        user_id : sessionStorage.getItem('user_id')
 
     }
 

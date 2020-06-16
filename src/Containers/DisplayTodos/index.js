@@ -12,7 +12,7 @@ export default  class DisplayTodos extends Component {
     
     componentDidMount(){
 
-        const id = localStorage.getItem('user_id')
+        const id = sessionStorage.getItem('user_id')
         axios.get(`https://todolist-auth-express-server.herokuapp.com/api/todo/all/${id}`)
         .then(res =>{
 
