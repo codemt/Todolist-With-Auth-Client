@@ -1,0 +1,21 @@
+.loginNavigation{
+
+    margin:1px;
+    padding:1px;
+
+}
+
+.loginNavigation ul{
+
+    background-color:lightgreen;
+
+}
+
+.loginNavigation ul li{
+
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    
+
+}

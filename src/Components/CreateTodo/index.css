@@ -1,0 +1,28 @@
+.createTodo {
+
+    position: fixed;
+    width:90%;
+    background-image:url('https://www.roadaffair.com/wp-content/uploads/2017/12/rock-of-cashel-castle-ireland-shutterstock_750976849.jpg');
+    background-size:cover;
+    height:100%;
+    margin:0;
+    padding:0;
+    padding-right:10px;
+    margin-right:10px;
+    float:left;
+}
+.createTodo input {
+
+    width:50%;
+    padding:10px;
+    margin:10px;
+
+
+}
+.createTodo button{
+
+    padding:10px;
+    margin:10px;
+    width:50%;
+}
+

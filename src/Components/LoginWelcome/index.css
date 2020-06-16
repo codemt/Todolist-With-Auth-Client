@@ -1,0 +1,15 @@
+.welcome{
+
+    float: left;
+    margin:0;
+    padding:0;
+    width:100%;
+    background-image:url('https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2018/3/16/0/Orig-The-Trip-Sister_Kilkea-Castle-Exterior.jpg.rend.hgtvcom.1280.960.suffix/1521215167473.jpeg');
+    background-size:cover;
+}
+.items{
+
+    float: left;
+    width:50%;
+
+}

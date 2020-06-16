@@ -1,0 +1,14 @@
+
+.todoItem {
+
+    background-color:lightgreen;
+
+
+}
+.todoItem h4,p,a,button{
+
+
+    margin:10px;
+    padding:10px;
+
+}

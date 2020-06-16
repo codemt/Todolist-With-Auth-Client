@@ -1,0 +1,30 @@
+.editTodo {
+
+    margin:10px;
+    padding:10px;
+    width:50%;
+
+
+}
+.editTodo input {
+
+    width:100%;
+    padding:10px;
+    margin:10px;
+
+
+}
+.editTodo button{
+
+    padding:10px;
+    margin:10px;
+
+}
+.editTodo .title{
+
+
+    color:green;
+    background-color: lightgreen;
+
+}
+

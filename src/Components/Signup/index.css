@@ -1,0 +1,24 @@
+.signup{
+
+    margin:1px;
+    padding:1px;
+    width:50%;
+
+}
+
+.signup input{
+
+    width:100%;
+    margin:3px;
+    padding:3px;
+    height:35px;
+
+
+}
+.signup button{
+
+    margin:10px;
+    padding:10px;
+
+
+}
