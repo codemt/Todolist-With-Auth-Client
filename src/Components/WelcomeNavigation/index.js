@@ -5,7 +5,7 @@ class WelcomeNavigation extends Component {
 
   componentWillUnmount(){
 
-    localStorage.clear()
+    sessionStorage.clear()
 
 
   }
@@ -23,7 +23,7 @@ class WelcomeNavigation extends Component {
   }
   
   render(){
-    const user_id = localStorage.getItem('user_id')
+    const user_id = sessionStorage.getItem('user_id')
     console.log(user_id)
     return (
         <div className="welcomeNavigation">
