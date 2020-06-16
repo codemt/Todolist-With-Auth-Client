@@ -13,7 +13,7 @@ import EditTodo from './Containers/EditTodo';
 function App() {
   return (
     <Router>
-       {localStorage.getItem('token') == null ? <LoginNavigation />
+       {sessionStorage.getItem('token') == null ? <LoginNavigation />
         : <WelcomeNavigation />
       }
       <Switch>

@@ -40,11 +40,11 @@ class Login extends Component {
         .then(res =>{
 
             console.log(res.data)
-            localStorage.setItem('token', res.data.accessToken);
-            localStorage.setItem('user_id',res.data.id);
-            localStorage.setItem('username',res.data.username);
-            console.log(localStorage.getItem('token'))
-            console.log(localStorage.getItem('user_id'))
+            sessionStorage.setItem('token', res.data.accessToken);
+            sessionStorage.setItem('user_id',res.data.id);
+            sessionStorage.setItem('username',res.data.username);
+            console.log(sessionStorage.getItem('token'))
+            console.log(sessionStorage.getItem('user_id'))
             setTimeout(()=> {
 
                 window.location.replace('/dashboard')

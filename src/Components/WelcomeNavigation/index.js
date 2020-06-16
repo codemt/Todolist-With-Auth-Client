@@ -12,7 +12,7 @@ class WelcomeNavigation extends Component {
   logout = (e) => {
 
     e.preventDefault()
-    localStorage.clear()
+    sessionStorage.clear()
     setTimeout(()=> {
 
     window.location.replace('/')
